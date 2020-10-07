@@ -75,6 +75,9 @@ h2{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    
+  
+    
 }
 input[type=email]{
     max-width: 275px;
@@ -85,8 +88,11 @@ input[type=email]{
 #submit{
     display: block;
  max-width:150px;
- text-align: center;
-
+ width:120px;
+margin:0 0 0 30px;
+color: black;
+font-weight:600;
+text-transform: uppercase;
  
 }
 
