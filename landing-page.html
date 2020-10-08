@@ -2,29 +2,132 @@
 
 <html>
     <head><link rel="stylesheet" href="./styles.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"></head>
+      
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/0acb47ea41.js" crossorigin="anonymous"></script>
+    </head>
     <body>
         <div id="wrapper">
         <header id="header">
             <div class="logo">
             <img id="header-img" src="./images/original_trombones.png" alt="trombones-logo"></div>
-            <nav id="nav-bar"><ul><li><a class="nav-link">Features</a></li> <li><a class="nav-link">How It Works</a></li> <li><a class="nav-link">Pricing</a></li></ul></nav>
+            <nav id="nav-bar">
+                <ul> 
+                    <li> 
+                        <a class="nav-link" href="#details">
+                    Features</a>
+                </li>
+                 
+            </a>
+            
+            <li>
+                <a class="nav-link" href="#video"> 
+                   How It Works
+                </a>
+            </li>
+                
+                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                </a>
+            </ul>
+        </nav>
             
         </header>
         
         <section class="container">
             <h2>Handcrafted, home-made masterpieces</h2>
-            <form id="form">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
               
-            <input id="email" type="email" placeholder="Please enter your Email" required>
+            <input id="email" type="email" placeholder="Please enter your Email" required name="email">
             <input id="submit" type="submit" class="btn btn-warning" value="Get Started">
             </form>
         </section>
-        <video id="video">
-            <source>
+        <section id="details">
+        <div id="details-icon">
+            <i class="fas fa-fire"></i>
+        </div>
+        <div>
+            <h2 id="details-title">Premium Materials</h2>
+            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase</p>
+        </div>
+        <div id="details-icon">
+            <i class="fas fa-truck"></i>
+        </div>
+        <div>
+            <h2 id="details-title">Fast Shipping</h2>
+            <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+        </div>
+        <div id="details-icon">
+            <i class="fas fa-battery-full"></i>
+        </div>
+        <div>
+            <h2 id="details-title">Quality Assurance</h2>
+            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+        </div>
+        </section>
+        <section>
+            <div id="video-content" >
+            <iframe id="video"  width="480" height="320" 
+            src="https://www.youtube.com/embed/-m8MqIS6VEU?controls=1" >
+            </iframe></div>
+        </section>
 
-        </video>
-        
+        <section>
+            <div id="card-container" >
+            <div class="card">
+                <div class="card-header">Tenor Trombone</div>
+            <div class="card-body"><h2>$600</h2></div>
+            <div>
+                <ul>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ul>
+                <input  id="submit-tenor" type="submit" class="btn btn-warning" value="Select">
+            </form>
+            </div>
+        </div>
+        <div class="card" id="pricing">
+            <div class="card-header">Valve Trombone</div>
+        <div class="card-body"><h2>$1200</h2></div>
+        <div>
+            <ul>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum dolor.</li>
+                <li>Lorem ipsum.</li>
+            </ul>
+            <input   type="submit" class="btn btn-warning" value="Select">
+            </form>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">Bass Trombone</div>
+    <div class="card-body"><h2>$1200</h2></div>
+    <div>
+        <ul>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+        </ul>
+        <input   type="submit" class="btn btn-warning" value="Select">
+            </form>
+    </div>
+</div>
+</div>
+        </section>
+        <section>
+        <footer class="footer">
+        <ul>
+           <a href="#"> <li>Privacy</li></a>
+            <a href="#"><li>Terms</li></a>  
+            <a href="#"><li>Contact</li></a>
+         
+        </ul>
+        <div>Copyrights 2020 Mike Stephane K.</div>
+        </footer>
+    </section>
     
     </div>
     </body>
